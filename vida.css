@@ -1,7 +1,17 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 252, 252);
-    
+.contenedor{
+    display: flex;
+    height: 100vh;
+}
+.mitad{
+    flex: 1;
+    padding: 20px;
+}
+
+.derecha{
+    background-color: white;
+}
+.izquierda{
+    background-color: black;
+    color: white;
+    font-size: 125%;
 }
