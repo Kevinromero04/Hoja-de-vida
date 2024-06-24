@@ -1,0 +1,14 @@
+
+/* Estilos para el menú desplegable */
+.content {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mostrar el menú desplegable al pasar el ratón */
+.dropdown:hover .content {
+    display: block;
+}

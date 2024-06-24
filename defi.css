@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.menu-informacion{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-expancion:hover .menu-informacion{
+    color: aqua;
+    display: block;
+}
