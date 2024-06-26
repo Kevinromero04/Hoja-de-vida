@@ -1,16 +1,32 @@
 body{
-    background-color: black;
-    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+.pricipal{
+    background-image: url(fondo.jpg);
+    background-repeat: round;
+    color: white;
+    height: 600px;
+    width: auto;
+    margin: auto;
+}
 .menu-informacion{
     display: none;
     position: absolute;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
 }
 .menu-expancion:hover .menu-informacion{
     color: aqua;
     display: block;
+    border: 10% solid rgb(87, 14, 14);
+}
+.sobre_mi{
+    background-image: url(fondo.jpg);
+    background-repeat: round;
+    color: white;
+    height: 600px;
+    width: auto;
+    margin: auto;
 }
