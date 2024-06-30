@@ -6,9 +6,14 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    border: red solid 5px;
+
 }
 
 /* Mostrar el menú desplegable al pasar el ratón */
 .dropdown:hover .content {
     display: block;
+}
+.dropdown{
+    border: red solid 5px; 
 }
