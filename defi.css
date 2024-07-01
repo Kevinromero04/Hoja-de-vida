@@ -12,6 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5%;
 }
 .menu{
     height: 500px;
@@ -19,33 +20,38 @@ body{
     margin: 5px;
 }
 .acomoda{
-    border: green solid 5px;
     margin: 5px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 .nombre{
-    border: green solid 5px;
+    display: flex-box;
     text-align: center;
-    align-items: center;
+    margin: 0px 20px;
+}
+.nombre img{
+    height: 250px;
+    border: black solid 4px;
+    border-radius: 10%;
 }
 .desplegable{
     display: none;
     list-style-type: none;
     position: absolute;
-    margin: 40px;
-    border: green solid 5px;
+    margin: 47px;
 }
 
 .desplegable li{
-    border: black double 10px;
+    border: black double 12px;
     height: 30px;
-    width: 90px;
+    width: 150px;
     list-style-type: none;
-    margin: 0px 100px 0px 0px;
+    margin: 0px 100px 0px 60px;
+    text-align: center;
+    padding-top: 10px;
 }
 .expancion{
-    border: black double 10px;
+    border: black double 12px;
     width: 150px;
     height: 55px;
     text-align: center;
@@ -56,17 +62,18 @@ body{
 .expancion:hover .desplegable{
     display: block;
 }
-.container2{
-    background-image: url(https://aymcontadores.com/wp/wp-content/uploads/2015/02/fondo-sombra.jpg);
+h2{
+    text-align: center;
+}
+p, h3 {
+    margin: 20px;
+}
+.contenedor{
+    background-image: url(fondo.jpg);
     background-repeat: round no-repeat;
     color: white;
-    height: 600px;
-    width: auto;
-    margin: auto;
     border: black solid 6px;
-}
-.container2 h2{
-    text-align: center;
+    border-radius: 5%;
 }
 .imagen{
     height: 80px;
@@ -75,4 +82,18 @@ body{
 .imagen1{
     height: 100px;
     width: 210px;
+}
+
+
+.cuatro{
+    height: 350px;
+    text-align: center;
+}
+input,textarea{
+    border: rgb(0, 0, 0) solid 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+form{
+    text-align: center;
 }
