@@ -51,11 +51,13 @@ body{
     list-style-type: none;
     position: absolute;
     margin: 47px;
-
+    padding-top: 15px;
+    padding-left: 40px;
 }
 
 .desplegable li{
-    border: black double 12px;
+    border: rgb(255, 255, 255) double 12px;
+    background-color: black;
     height: 30px;
     width: 150px;
     list-style-type: none;
@@ -64,7 +66,8 @@ body{
     padding-top: 10px;
 }
 .expancion{
-    border: black double 12px;
+    border: rgb(255, 255, 255) double 12px;
+    background-color: black;
     width: 150px;
     height: 55px;
     text-align: center;
@@ -83,10 +86,11 @@ p, h3 {
 }
 .contenedor{
     background-image: url(fondo.jpg);
-    background-repeat: round no-repeat;
+    background-repeat: round;
     color: white;
-    border: black solid 6px;
+    border: rgb(0, 0, 0) solid 6px;
     border-radius: 5%;
+
 }
 .imagen{
     height: 80px;
@@ -101,6 +105,7 @@ p, h3 {
 .cuatro{
     height: 350px;
     text-align: center;
+
 }
 input,textarea{
     border: rgb(0, 0, 0) solid 3px;
@@ -112,10 +117,7 @@ form{
 }
 
 @media(max-width: 400px){
-    .container{
-        border: rgb(110, 33, 33) solid 6px;
-        border-radius: 5%;
-    }
+
     .centra{
         display: flex;
         width: 300px;
@@ -144,6 +146,7 @@ form{
         padding-left: 1px;
         background-color: rgb(0, 0, 0);
         margin-top: 65px;
+        padding-top: 0px;
     }
     .desplegable li{
         border: rgb(255, 255, 255) double 12px;
@@ -185,9 +188,8 @@ form{
 
 
 
-}    .dos{
+   .dos{
         background-size: 300px 600px;
-        border: rgb(110, 33, 33) solid 6px;
         border-radius: 5%;
     }
     .imagen{
@@ -200,12 +202,10 @@ form{
     }    
     .tres{
         background-size: 300px 620px;
-        border: rgb(110, 33, 33) solid 6px;
         border-radius: 5%;
     }
     .cuatro{
         background-size: 300px 350px;
-        border: rgb(110, 33, 33) solid 6px;
         border-radius: 5%;
     }
 
