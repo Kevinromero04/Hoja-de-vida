@@ -21,6 +21,10 @@ a{
     align-items: center;
     border-radius: 5%;
 }
+.container h3,h2{
+    font-size: normal;
+    margin:  15px;
+}
 .centra{
     display: flex;
     width: 800px;
@@ -83,9 +87,12 @@ a{
 }
 h2{
     text-align: center;
+
 }
+
 p, h3 {
-    margin: 20px;
+    margin: 80px;
+    font-size: 20px;
 }
 .contenedor{
     background-image: url(fondo.jpg);
@@ -103,7 +110,10 @@ p, h3 {
     height: 100px;
     width: 210px;
 }
-
+.tres li{
+    margin-left: 80px;
+    font-size: 20px;
+}
 
 .cuatro{
     height: 350px;
