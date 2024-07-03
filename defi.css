@@ -129,10 +129,13 @@ p, h3 {
 .imagen{
     height: 80px;
     width: 80px;
+    margin-bottom: 40px;
 }
 .imagen1{
     height: 100px;
     width: 210px;
+    margin-bottom: 40px;
+
 }
  li{
     margin-left: 80px;
@@ -153,10 +156,13 @@ form{
 .contenedor h2{
     border: white double 8px;
     width: 200px;
-    margin-left: 42%;
+    margin-left: 43%;
 }
 .contacme{
     text-align: center;
+}
+#contactame{
+    margin-bottom: 40px;
 }
 .contacme input{
     margin: 10px;
