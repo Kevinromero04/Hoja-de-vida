@@ -3,11 +3,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
-    text-decoration: none;
-    color:#ffffff;
-
-}
 
 .container{
     background-image: url(fondo.gif);
@@ -71,7 +66,28 @@ a{
     margin: 0px 100px 0px 60px;
     text-align: center;
     padding-top: 10px;
+    transition-property: background-color, border;
+    transition-duration: 1s;
 }
+.desplegable li:hover{
+    background-color: white;
+    border: rgb(16, 73, 61) double 12px;
+    
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition-property: color;
+    padding: 10px;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+a:hover{
+    color: rgb(22, 182, 174);
+ }
+
+
 .expancion{
     border: rgb(255, 255, 255) double 12px;
     background-color: black;
@@ -81,13 +97,19 @@ a{
     display: flex;
     justify-content: center;
     margin: 5px 40px;
+    transition-property: background-color, color border;
+    transition-duration: 1s;
+}
+.expancion:hover{
+    color: rgb(22, 182, 174);
+    background-color: white;
+    border: rgb(16, 73, 61) double 12px;
 }
 .expancion:hover .desplegable{
     display: block;
 }
 h2{
     text-align: center;
-
 }
 
 p, h3 {
@@ -96,7 +118,7 @@ p, h3 {
 }
 .contenedor{
     background-image: url(fondo.gif);
-    background-repeat: no-repeat;
+    background-repeat: round;
     color: white;
     border: rgb(0, 0, 0) solid 6px;
     border-radius: 5%;
@@ -115,7 +137,7 @@ p, h3 {
     font-size: 20px;
 }
 .cuatro{
-    height: 620px;
+    height: 780px;
 
 }
 input,textarea{
@@ -140,11 +162,16 @@ form{
 .cuatro img{
     width: 50px;
     height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .redes{
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+.contenedor li{
+    margin-top: 30px;
 }
 
 @media(max-width: 400px){
@@ -206,7 +233,7 @@ form{
     margin-top: 20px;
 }    
 .cuatro{
-    height: 650px;
+    height: 770px;
 }
     
 
