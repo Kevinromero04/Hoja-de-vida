@@ -10,7 +10,7 @@ a{
 }
 
 .container{
-    background-image: url(fondo.jpg);
+    background-image: url(fondo.gif);
     background-repeat: round;
     height: 620px;
     width: auto;
@@ -95,8 +95,8 @@ p, h3 {
     font-size: 20px;
 }
 .contenedor{
-    background-image: url(fondo.jpg);
-    background-repeat: round;
+    background-image: url(fondo.gif);
+    background-repeat: no-repeat;
     color: white;
     border: rgb(0, 0, 0) solid 6px;
     border-radius: 5%;
@@ -110,14 +110,12 @@ p, h3 {
     height: 100px;
     width: 210px;
 }
-.tres li{
+ li{
     margin-left: 80px;
     font-size: 20px;
 }
-
 .cuatro{
-    height: 350px;
-    text-align: center;
+    height: 620px;
 
 }
 input,textarea{
@@ -128,9 +126,28 @@ input,textarea{
 form{
     text-align: center;
 }
+.contenedor h2{
+    border: white double 8px;
+    width: 200px;
+    margin-left: 42%;
+}
+.contacme{
+    text-align: center;
+}
+.contacme input{
+    margin: 10px;
+}
+.cuatro img{
+    width: 50px;
+    height: 50px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
 @media(max-width: 400px){
-
     .centra{
         display: flex;
         width: 300px;
@@ -171,40 +188,53 @@ form{
         text-align: center;
   
     }
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   .dos{
-        background-size: 300px 600px;
-        border-radius: 5%;
+    .contenedor h2{
+        margin-left: 20%;
     }
+    .container{
+        background-image: url(fondo2.gif);
+    }
+    .contenedor{
+        background-image: url(fondo2.gif);
+        background-repeat: round;
+        background-position-x: 0px;
+    }
+.cuatro li{
+    margin-left: 20px;
+}
+.cuatro img{
+    margin-top: 20px;
+}    
+.cuatro{
+    height: 650px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .imagen{
         height: 60px;
         width: 60px;
@@ -213,13 +243,4 @@ form{
         height: 70px;
         width: 160px;
     }    
-    .tres{
-        background-size: 300px 620px;
-        border-radius: 5%;
-    }
-    .cuatro{
-        background-size: 300px 350px;
-        border-radius: 5%;
-    }
-
 }
