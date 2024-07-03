@@ -110,11 +110,13 @@ a:hover{
 }
 h2{
     text-align: center;
+    
 }
 
 p, h3 {
     margin: 80px;
     font-size: 20px;
+
 }
 .contenedor{
     background-image: url(fondo.gif);
