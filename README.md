@@ -18,6 +18,12 @@ Deberas ejecutar este comando para descargar
 sudo apt install app https://github.com/Kevinromero04/Hoja-de-vida.git
 ```
 
+
+# Tecnoogias  💻
+- Html 
+- Css
+
+  
 ### Visualizacion
 ![Visualizacion](./Vista.png)
 
