@@ -19,7 +19,7 @@ sudo apt install app https://github.com/Kevinromero04/Hoja-de-vida.git
 ```
 
 ### Visualizacion
-![Visualizacion](./gato.png)
+![Visualizacion](./Vista.png)
 
 
 Hecho por [Kevin_Romero](https://github.com/Kevinromero04)
